@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Resource files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header files">
+      <UniqueIdentifier>{72bdab0a-93f3-4fbf-ae53-f1b55aa23c2a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="init.cpp">
+      <Filter>Resource files</Filter>
+    </ClCompile>
+    <ClCompile Include="hashkey.cpp">
+      <Filter>Resource files</Filter>
+    </ClCompile>
+    <ClCompile Include="board.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="data.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="attack.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="io.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="movegen.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="validate.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="makemove.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="perft.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="search.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="misc.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="pvtable.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="evaluation.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="uci.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="xboard.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="console.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="bitboards.cpp">
+      <Filter>Resource files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Header.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
